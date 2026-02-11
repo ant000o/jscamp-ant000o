@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <title>DevJobs - Empleos</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Detalles de empleo." />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./script.js"></script>
+</head>
+
+<body>
+    <header>
+    <h1>
+        <svg
+        fill="none"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+        >
+        <polyline points="16 18 22 12 16 6"></polyline>
+        <polyline points="8 6 2 12 8 18"></polyline>
+        </svg>
+        DevJobs
+    </h1>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="empleos.html">Empleos</a>
+    </nav>
+
+    <div>
+        <devjobs-avatar service="google" username="google.com" size="32">
+        </devjobs-avatar>
+
+        <devjobs-avatar service="google" username="netflix.com" size="32">
+        </devjobs-avatar>
+
+        <devjobs-avatar service="google" username="vercel.com" size="32">
+        </devjobs-avatar>
+    </div>
+    </header>
+
+    <main>
+        <!-- Mejor división mental, para mejorar semántica 
+        
+        <article>
+            <header>...</header>
+
+            <section>Descripción</section>
+            <section>Responsabilidades</section>
+            <section>Requisitos</section>
+            <section>Empresa</section>
+
+            <footer>CTA</footer>
+        </article> 
+
+        Si el contenido podría existir por sí solo (una oferta laboral) → es un <article>.
+            -->
+
+        <nav class="breadcrumb" aria-label="breadcrumb">
+            <a href="empleos.html">Empleos</a>
+            <span>/</span>
+            <a href="">Titulo empleo seleccionado</a>
+        </nav>
+
+        <article class="job-detail">
+            <header class="job-detail-header">
+                <div>
+                    <h2>Titulo empleo seleccionado</h2>
+                    <address>Empresa | Ciudad</address>
+                </div>
+                <button class="button-apply-job">Aplicar ahora</button>
+            </header>
+
+            <section>
+                <h3>Descripcion del puesto</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos omnis,
+                    repellat fugit totam distinctio autem aliquid neque laborum eius
+                    dignissimos tempora dolor fuga at esse incidunt magni praesentium
+                    pariatur saepe?
+                </p>
+            </section>
+
+            <section class="responsabilities">
+                <h3>Responsabilidades</h3>
+                <ul class="list">
+                    <li>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M9 12l2 2l4 -4" />
+                        </svg>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </li>
+                    <li>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M9 12l2 2l4 -4" />
+                        </svg>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="requirements">
+                <h3>Requisitos</h3>
+                <ul class="list">
+                    <li>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M9 12l2 2l4 -4" />
+                        </svg>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </li>
+                    <li>
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-circle-check"
+                        >
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+                            <path d="M9 12l2 2l4 -4" />
+                        </svg>
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span>
+                    </li>
+                </ul>
+            </section>
+
+            <section class="about-business">
+                <h3>Acerca de la empresa</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                    fugit in laborum consequuntur magnam rerum consequatur quidem quis,
+                    corrupti voluptatem quos nihil enim sit unde perspiciatis animi
+                    quaerat molestiae ipsum!
+                </p>
+            </section>
+        </article>
+
+        <div class="apply-job">
+            <button class="button-apply-job">Aplicar</button>
+        </div>
+    
+    </main>
+
+    <footer>
+    <small>&copy; 2025 DevJobs. Todos los derechos reservados.</small>
+    </footer>
+</body>
+</html>
