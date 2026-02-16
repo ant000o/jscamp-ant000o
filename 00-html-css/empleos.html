@@ -59,13 +59,13 @@
         </div>
 
         <div class="search-filters">
-          <select name="technology" id="filter-technology">
+          <select name="technology" id="filter-technology" multiple>
             <option value="">Tecnología</option>
             <optgroup label="Tecnologías populares">
               <option value="javascript">JavaScript</option>
               <option value="python">Python</option>
               <option value="react">React</option>
-              <option value="nodejs">Node.js</option>
+              <option value="node">Node.js</option>
             </optgroup>
             <option value="java">Java</option>
             <hr />
@@ -96,11 +96,11 @@
         </div>
       </form>
 
-      <span id="filter-selected-value"></span>
     </section>
     
     <section>
       <h2>Resultados de búsqueda</h2>
+      <span id="visual-results"></span>
       <div class="jobs-listings">
         <!-- <article class="job-listing-card" data-location="remoto" data-technology="javascript">
           <div>

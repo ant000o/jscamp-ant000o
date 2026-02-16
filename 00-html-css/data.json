@@ -30,7 +30,7 @@
     "ubicacion": "Guadalajara",
     "descripcion": "Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El candidato debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.",
     "data": {
-      "technology": "mobile",
+      "technology": ["react", "python", "javascript"],
       "modalidad": "guadalajara",
       "nivel": "mid-level"
     }
@@ -66,7 +66,7 @@
     "ubicacion": "Buenos Aires",
     "descripcion": "Se busca un administrador de bases de datos con experiencia en PostgreSQL y MySQL. El candidato deberá asegurar la disponibilidad, seguridad y rendimiento de las bases de datos de producción.",
     "data": {
-      "technology": "mobile",
+      "technology": "ruby",
       "modalidad": "bsas",
       "nivel": "mid-level"
     }
@@ -138,7 +138,7 @@
     "ubicacion": "Lima",
     "descripcion": "Se busca ingeniero de QA con experiencia en automatización de pruebas utilizando herramientas como Selenium, Cypress o Playwright. Conocimiento deseado en CI/CD.",
     "data": {
-      "technology": "mobile",
+      "technology": "react",
       "modalidad": "lima",
       "nivel": "mid-level"
     }
@@ -150,7 +150,7 @@
     "ubicacion": "Santiago de Chile",
     "descripcion": "Buscamos un administrador de sistemas con experiencia en Linux, Docker y monitoreo de servidores. Conocimiento en scripting Bash o Python será un plus.",
     "data": {
-      "technology": "mobile",
+      "technology": "java",
       "modalidad": "santiago",
       "nivel": "mid-level"
     }
@@ -162,7 +162,7 @@
     "ubicacion": "Madrid",
     "descripcion": "Estamos buscando un Scrum Master con experiencia en metodologías ágiles y gestión de equipos multidisciplinarios. Certificación Scrum Master deseable.",
     "data": {
-      "technology": "mobile",
+      "technology": "java",
       "modalidad": "madrid",
       "nivel": "mid-level"
     }
@@ -174,7 +174,7 @@
     "ubicacion": "Monterrey",
     "descripcion": "Buscamos un técnico de soporte con habilidades en resolución de incidencias, redes y sistemas operativos. Se requiere atención al detalle y excelente trato con el usuario.",
     "data": {
-      "technology": "mobile",
+      "technology": "c",
       "modalidad": "monterrey",
       "nivel": "junior"
     }
