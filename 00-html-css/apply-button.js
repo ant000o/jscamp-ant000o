@@ -21,17 +21,29 @@
 
 const jobsListingSection = document.querySelector('.jobs-listings');
 
+// jobsListingSection.addEventListener('click', (event) => {
+//     const element = event.target;
+//     if (element.classList.contains('button-apply-job')) {
+//         // console.log('es el boton')
+//         // element.textContent = '¡Aplicado!';
+//         // element.classList.add('is-applied');
+//         // element.disabled = true;
+//         window.location.href = './detalle-empleo.html';
+//     }
+// })
+
+
 jobsListingSection.addEventListener('click', (event) => {
-    const element = event.target;
-    if (element.classList.contains('button-apply-job')) {
-        // console.log('es el boton')
-        // element.textContent = '¡Aplicado!';
-        // element.classList.add('is-applied');
-        // element.disabled = true;
-        // get redirected to detalle-empleo.html
-        window.location.href = './detalle-empleo.html';
-    }
-})
+  const button = event.target.closest('.button-apply-job');
+  
+  if (!button) return;
+
+  const article = button.closest('.job-listing-card');
+  const jobId = article.dataset.id;
+
+  window.location.href = `./detalle-empleo.html?id=${jobId}`;
+});
+
 
 
 // ejemplos de eventos

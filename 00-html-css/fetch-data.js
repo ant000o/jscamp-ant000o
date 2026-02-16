@@ -123,6 +123,7 @@ window.renderJobs = function(jobsArray){
     const article = document.createElement('article')
     article.className = 'job-listing-card'
     
+    article.dataset.id = job.id;
     article.dataset.modalidad = job.data.modalidad
     article.dataset.nivel = job.data.nivel
     article.dataset.technology = job.data.technology
